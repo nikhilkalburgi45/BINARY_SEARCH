@@ -51,7 +51,7 @@ int binarySearch(vector<int>& nums, int target) {
 
 ```
 
-Step-by-Step Breakdown
+## Step-by-Step Breakdown
 
 1. Initialize Variables:
    low = 0: Starting index of the array.
@@ -69,9 +69,9 @@ Step-by-Step Breakdown
 4. Return Result:
    If the loop ends without finding the target, return -1 indicating the target is not present in the array.
 
-Complexity Analysis :-
-Time Complexity: O(log n)
-In each iteration, we reduce the search space by half, making binary search logarithmic in time complexity.
+## Complexity Analysis
 
-Space Complexity: O(1)
-Only a constant amount of extra space is used for the low, high, and mid variables.
+1. Time Complexity: O(log n)
+   In each iteration, we reduce the search space by half, making binary search logarithmic in time complexity.
+2. Space Complexity: O(1)
+   Only a constant amount of extra space is used for the low, high, and mid variables.
